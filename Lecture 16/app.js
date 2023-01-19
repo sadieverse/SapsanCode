@@ -310,16 +310,16 @@
 // TASK2
 // CREATE ARRAY FROM AN INPUT
 
-function makeArray(){
-    let someArr = [];
-    let element = prompt('enter anything');
-    let n = +prompt('enter a number');
-    for(i = 1; i<=n; i++){0
-    someArr = someArr.concat(element);
-    }
-    console.log(someArr);
-}
-makeArray();
+// function makeArray(){
+//     let someArr = [];
+//     let element = prompt('enter anything');
+//     let n = +prompt('enter a number');
+//     for(i = 1; i<=n; i++){0
+//     someArr = someArr.concat(element);
+//     }
+//     console.log(someArr);
+// }
+// makeArray();
 
 // TASK3 
 // FILTER ARRAY FROM A SPECIFIC ELEMENT
@@ -339,3 +339,80 @@ makeArray();
 
 // Lecture16
 // 
+// TASK1
+// MULTIPLE ACTIONS WITH AN OBJECT
+
+// let sapsanStudent ={
+// }
+// console.log(sapsanStudent);
+// sapsanStudent.name = 'Saule';
+// console.log(sapsanStudent);
+// sapsanStudent.surname = 'Nazarbayeva';
+// console.log(sapsanStudent);
+// sapsanStudent.name = 'Akmaral';
+// console.log(sapsanStudent);
+// delete sapsanStudent.name;
+// console.log(sapsanStudent);
+
+// TASK2
+// isEmpty OBJECT
+
+// let obj = {
+//     name: 'some object'
+// }
+// function isEmpty(obj) {
+//     for(key in obj) {
+//        if(obj.hasOwnProperty(key)) {
+//           return false
+//        }
+//     }
+//     return true
+//  }
+// console.log(isEmpty(obj))
+
+// TASK3
+// CREATE OBJECTS REPRESENTING FAMILY MEMBERS (I CHOSE TO DO PEOPLE I LIVE WITH WHICH IS TECHNICALLY A FAMILY)
+
+// let flatMates = [];
+// let Saya = {
+//     name: 'Saida',
+//     surname: 'Sainova',
+//     relation: 'myself',
+//     age: '21',
+//     birthcity: 'Oral',
+//     starsign: 'Taurus',
+//     occupation: 'Hilton Astana',
+//     position: 'Guest Service Agent',
+// }
+// let Zhanna = {
+//     name: 'Zhanna',
+//     surname: 'Shamurova',
+//     relation: 'my sister',
+//     age: '25',
+//     birthcity: 'Oral',
+//     starsign: 'Gemini',
+//     occupation: 'MyCar Astana',
+//     position: 'Contract maker',
+// }
+// let Nurly = {
+//     name: 'Nurly',
+//     surname: 'Shamurova',
+//     relation: 'my auntie and mom of Zhanna',
+//     age: '50',
+//     birthcity: 'Oral',
+//     starsign: 'Gemini',
+//     occupation: 'Housewive',
+//     position: 'Mom and Auntie',
+// }
+// let Dana = {
+//     name: 'Dana',
+//     surname: 'Akimguzhina',
+//     relation: 'friend of Zhanna',
+//     age: '25',
+//     birthcity: 'Oral',
+//     starsign: 'Leo',
+//     occupation: 'MANGO retail',
+//     position: 'Shopping Assistant',
+// }
+// flatMates.push(Saya, Zhanna, Dana, Nurly);
+// console.log(flatMates);
